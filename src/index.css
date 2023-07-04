@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
+    font-size: 0.9rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(45deg, #d9f2f9, #eff3f7);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+code,
+pre {
+    font-family: monospace;
+}
+
+main {
+    padding-top: 1rem !important;
+    display: block;
+    /* padding: 2rem; */
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+section {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+form {
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border-radius: 4px;
+    border: 1px solid #cae1e7;
+    padding: 4px;
+}
+
+input:focus-visible {
+    outline: 1.2px solid #226d7f !important;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+}
+
+input[type="text"]:read-only,
+textarea:read-only {
+    border: 1px solid #e8e8e8;
+    background: #e8e8e8;
+}
+
+textarea {
+    height: 200px;
+}
+
+pre {
+    width: 100%;
+    white-space: break-spaces;
+    word-break: break-all;
+}
+
+footer {
+    display: block;
+}
+
+fieldset {
+    background: #ffffff;
+    /* box-shadow: 1px 1px 8px 0px #88887f; */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    /* margin-bottom: 1rem; */
+    margin-bottom: 1.6rem;
+    border-radius: 3px;
+}
+
+#root {
+    height: 100vh;
+    overflow: auto;
+}
+
+.header-style {
+    background: #226d7f;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+select {
+    height: 44px;
+    width: 20%;
+    border-radius: 5px;
+    border-radius: 4px;
+    background: #e8e8e8;
+    padding: 6px;
+    border: #e8e8e8;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dbf2f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(120deg, #ebf3f7, #226d7f) !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(26, 4, 85);
+}
+legend {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.hover-div {
+    padding: 5px;
+}
+
+.hover-div:hover {
+    background: #cee5eb;
+    border-radius: 5px;
+    color: black;
+}
+
+.selected {
+    background-color: #52a5b9;
+    border-radius: 5px;
+    color: #f4f4f4;
+}
+
+button {
+    border: none;
+    background: #226d7f;
+    color: #ffffff;
+    padding: 3px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button:disabled {
+    background: #cee5eb;
+    color: #88887f;
+}
+
+.cursor-poiner {
+    cursor: pointer;
+}
+
+.w-200 {
+    width: fit-content;
+    padding: 7px 15px 7px 15px;
+    /* width: 200px !important; */
+}
+
+.w-100 {
+    padding: 7px 15px 7px 15px;
+}
+
+.btn-primary {
+    --bs-btn-bg: #1885a0;
+    --bs-btn-border-color: #226d7f;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+    background-color: #0e5d70;
+    border-color: #226d7f;
+}
+
+.btn:hover {
+    background-color: #0e5d70;
+    border-color: #226d7f;
+}
+.btn:focus-visible {
+    background-color: #0e5d70;
+    border-color: #226d7f;
+}
+/* .css-13cymwt-control {
+    width: 250px;
+    flex-wrap: nowrap !important;
+} */
+
+.footer-text {
+    color: #59bcd3;
+}
+
+a {
+    color: #1d7d93;
+}
+
+.lexend-fonts {
+    font-family: "Lexend Peta", sans-serif !important;
+}
+
+.bg-blue {
+    background: #226d7f;
+}
+
+a {
+    text-decoration: none !important;
+}
